@@ -1,7 +1,7 @@
 Summary:	A new version of 'traceroute'
 Summary(pl):	Nowa wersja 'traceroute'
 Name:		traceroute4
-Version:	990522
+Version:	991603
 Release:	1
 Copyright:	GPL
 Group:		Applications/Networking
