@@ -1,3 +1,4 @@
+# TODO: finish pl desc
 Summary:	A new version of 'traceroute'
 Summary(pl):	Nowa wersja 'traceroute'
 Name:		traceroute4
@@ -36,7 +37,10 @@ Nowa wersja 'traceroute'.
 %setup -q -c %{name}
 
 %build
-%{__make} CFLAGS="%{rpmcflags} -D_BSD_SOURCE" LDFLAGS="%{rpmldflags}" CC="%{__cc}"
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} -D_BSD_SOURCE" \
+	LDFLAGS="%{rpmldflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
