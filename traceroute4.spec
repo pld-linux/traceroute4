@@ -5,8 +5,6 @@ Version:	991603
 Release:	1
 License:	GPL
 Group:		Applications/Networking
-Group(de):	Applikationen/Netzwerkwesen
-Group(pl):	Aplikacje/Sieciowe
 Source0:	ftp://ftp.nikhef.nl/pub/network/traceroute_%{version}.tar.Z
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
