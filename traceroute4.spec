@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Networking
 Source0:	ftp://ftp.nikhef.nl/pub/network/traceroute_%{version}.tar.Z
+# Source0-md5:	0e0cf1f08525c531c7db9dc604b77b11
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
