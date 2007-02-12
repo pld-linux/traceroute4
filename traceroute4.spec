@@ -1,5 +1,5 @@
 Summary:	A new version of 'traceroute'
-Summary(pl.UTF-8):   Nowa wersja 'traceroute'
+Summary(pl.UTF-8):	Nowa wersja 'traceroute'
 Name:		traceroute4
 Version:	991603
 Release:	1
