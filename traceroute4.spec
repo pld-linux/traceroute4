@@ -1,5 +1,5 @@
 Summary:	A new version of 'traceroute'
-Summary(pl):	Nowa wersja 'traceroute'
+Summary(pl.UTF-8):   Nowa wersja 'traceroute'
 Name:		traceroute4
 Version:	991603
 Release:	1
@@ -29,27 +29,27 @@ a certain destination. Among the new features are:
 - Include standard deviation in rtt statistics summary.
 - Cache nameserver lookups to minimize DNS queries.
 
-%description -l pl
-Nowa wersja 'traceroute' - narzêdzia pokazuj±cego trasê w sieci do
-okre¶lonego celu. W¶ród nowych mo¿liwo¶ci s±:
+%description -l pl.UTF-8
+Nowa wersja 'traceroute' - narzÄ™dzia pokazujÄ…cego trasÄ™ w sieci do
+okreÅ›lonego celu. WÅ›rÃ³d nowych moÅ¼liwoÅ›ci sÄ…:
 - opcjonalne podawanie TTL,
-- opcjonalne u¿ywanie swobodnego routingu ¼ród³owego w celu pokazania
-  trasy miêdzy dowolnymi celami,
-- rozszerzona przeno¶no¶æ w celu dzia³ania na wielu platformach,
-- ulepszona obs³uga timeoutów podczas chwytania pakietów ICMP,
-- opcja sprawdzania wszystkich adresów danego celu,
-- opcja wy³±czenia fragmentacji i wykrywania MTU,
-- rozpoznawanie ró¿nych nowych rodzajów pakietów ICMP,
-- podawanie czasu podró¿y pakietu w u³amkach milisekund,
-- opcja wy¶wietlania numeru systemu dla ka¿dego kroku,
-- opcja wy¶wietlania nazwy sieci dla ka¿dego kroku,
-- opcje domy¶lne konfigurowalne poprzez zmienne ¶rodowiskowe,
-- opcjonalne ustawianie pocz±tkowego TTL dla pominiêcia pierwszych
-  kroków,
-- opcjonalne statystyki min./¶r./maks. rtt dla ka¿dego kroku,
-- do³±czanie odchylenia standardowego do statystyk,
-- zapamiêtywanie wyników zapytañ DNS w celu zminimalizowania liczby
-  zapytañ.
+- opcjonalne uÅ¼ywanie swobodnego routingu ÅºrÃ³dÅ‚owego w celu pokazania
+  trasy miÄ™dzy dowolnymi celami,
+- rozszerzona przenoÅ›noÅ›Ä‡ w celu dziaÅ‚ania na wielu platformach,
+- ulepszona obsÅ‚uga timeoutÃ³w podczas chwytania pakietÃ³w ICMP,
+- opcja sprawdzania wszystkich adresÃ³w danego celu,
+- opcja wyÅ‚Ä…czenia fragmentacji i wykrywania MTU,
+- rozpoznawanie rÃ³Å¼nych nowych rodzajÃ³w pakietÃ³w ICMP,
+- podawanie czasu podrÃ³Å¼y pakietu w uÅ‚amkach milisekund,
+- opcja wyÅ›wietlania numeru systemu dla kaÅ¼dego kroku,
+- opcja wyÅ›wietlania nazwy sieci dla kaÅ¼dego kroku,
+- opcje domyÅ›lne konfigurowalne poprzez zmienne Å›rodowiskowe,
+- opcjonalne ustawianie poczÄ…tkowego TTL dla pominiÄ™cia pierwszych
+  krokÃ³w,
+- opcjonalne statystyki min./Å›r./maks. rtt dla kaÅ¼dego kroku,
+- doÅ‚Ä…czanie odchylenia standardowego do statystyk,
+- zapamiÄ™tywanie wynikÃ³w zapytaÅ„ DNS w celu zminimalizowania liczby
+  zapytaÅ„.
 
 %prep
 %setup -q -c %{name}
